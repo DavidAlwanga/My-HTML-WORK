@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+.login{
+border: 3px solid yellow;
+max-width: max-content;
+padding: 20px 30px;
+margin: 10px auto;
+}
+input[type=button]{
+display: block;
+background-color: blanchedalmond;
+margin: 0 auto;
+}
+button{
+    border-radius: 12px 12px;
+}
+</style>
+</head>
+<body>
+<div class="login">
+<form >
+<label for="email"> Enter Your Email: </label>
+<input type="email" name="email" id="email" />
+<br/>
+<label for="password"> Enter Your Password: </label>
+<input type="password" name="password" id="password" />
+<br/>
+Gender: <input type="radio" name="gender" value="Male">Male 
+        <input type="radio" name="gender" value="Female">Female <br>
+        <fieldset> <legend>Choose Your prefered working days(select two): </legend>
+<input type="checkbox" name="Work-days" value="Monday">Monday <br>
+<input type="checkbox" name="Work-days" value="Tuesday">Tuesday <br>
+<input type="checkbox" name="Work-days" value="Wednesday">Wednesday <br>
+<input type="checkbox" name="Work-days" value="Thursday">Thursday <br>
+<input type="checkbox" name="Work-days" value="Friday">Friday <br>
+        </fieldset>
+<fieldset>
+<legend>Time</legend>
+select prefered working time: <select name="time" id="time">
+<option value="Full time">Full time</option>
+<option value="Part time">Part time</option>
+</select>
+</fieldset>
+<button type="reset"> Reset</button>
+<button type="submit">Submit</button>
+</form>
+</div>
+</body>
+</html>
